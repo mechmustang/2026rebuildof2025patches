@@ -1,5 +1,5 @@
 # 2026rebuildof2025patches
-Zip files of versions can be found at the google folder: https://drive.google.com/file/d/1XCEm8a74K_W4b87cwHWCmf_2W0Et0Gkm/view?usp=drive_link
+Zip files of versions can be found at the google folder: https://drive.google.com/drive/folders/1MqZtYkAMpWvMVDTFV1RIQeQm0cM1hu0n?usp=drive_link
 
 Version 1-29-26 Uploaded by Roer and Hirt from Bangma's laptop #45
    USed 1-27-26 as a base and we temporailty turned off logging because it was crashing by logging too much information
