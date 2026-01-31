@@ -1,6 +1,18 @@
 # 2026rebuildof2025patches
 Zip files of versions can be found at the google folder: https://drive.google.com/drive/folders/1MqZtYkAMpWvMVDTFV1RIQeQm0cM1hu0n?usp=drive_link
 
+1-31-2026 Uploaded by Roer from Roer's Orange Laptop
+  Roer added images to Advantagescope telling where the robot thinks it is,
+    and where each camera thinks it is on the field
+  Roer added a button to press to jump to where the camera thinks it is
+  Roer added to Vision to calculate trust values (standard deviations) for Apriltag detections
+  Roer added a RobotState class to handle changes in state (DEBUG, PREMATCH, PIT, TELEOP, etc)
+  ISSUE: PoseEstimation is not entirely accurate -- I think the gyroscope is resetting at the wrong times
+  TODO: Correct pose PoseEstimation/Gyroscoping
+  TODO: Tune the trustvalues so that camera data adjusts pose more quickly.
+  TODO: Fix logging / Epilogue so that data is sent to Network Tables more efficiently and get rid of smartdashboard lines (not allowed in 2027)
+
+
 Version 1-29-26 Uploaded by Roer and Hirt from Bangma's laptop #45
    USed 1-27-26 as a base and we temporailty turned off logging because it was crashing by logging too much information
    added a VisionandLights subsystem which was able to see april tags and add vision measurements to the drive subystem
