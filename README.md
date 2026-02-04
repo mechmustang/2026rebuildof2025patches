@@ -1,5 +1,11 @@
 # 2026rebuildof2025patches
 Zip files of versions can be found at the google folder: https://drive.google.com/drive/folders/1MqZtYkAMpWvMVDTFV1RIQeQm0cM1hu0n?usp=drive_link
+2-4-2026 Uploaded by Roer From Roer's Orange Laptop
+  This version sees April tags and uses a mixture of odometry and cameras to track where it is on the field
+  A button on the joystick auto aims to a specified coordinate where the basket is located
+  ISSUE: when the button is pressed and the driver isn't driving the robot aligns with the basket, but slowly drifts
+    possible causes are no deadband on the joystick - or incorrectly tuned PID contollers. 
+  ISSUE: when the robot is behind the basket and auto aiming, the robot will rotate around 360 degrees. 
 
 1-31-2026 Uploaded by Roer from Roer's Orange Laptop
   Roer added images to Advantagescope telling where the robot thinks it is,
