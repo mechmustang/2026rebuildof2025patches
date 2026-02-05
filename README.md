@@ -1,5 +1,10 @@
 # 2026rebuildof2025patches
 Zip files of versions can be found at the google folder: https://drive.google.com/drive/folders/1MqZtYkAMpWvMVDTFV1RIQeQm0cM1hu0n?usp=drive_link
+2-5-2026 Uploaded by Roer/Rathbun From Roer's Orange Laptop
+  This version fixes a discrepency between rotational units (rad/deg) with the Rotatioanl PID Controller
+  This version fixes the drift when the aiming lock button is pushed
+  This version implements tunable kp, ki and kd values for the RotationalPID, which now needs testing and eventual tuning.
+
 2-4-2026 Uploaded by Roer From Roer's Orange Laptop
   This version sees April tags and uses a mixture of odometry and cameras to track where it is on the field
   A button on the joystick auto aims to a specified coordinate where the basket is located
